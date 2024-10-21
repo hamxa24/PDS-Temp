@@ -283,7 +283,7 @@ export const Mentor: React.FC = () => {
                 <div className="m-3 py-14 md:my-10 text-center">
                   <div className="relative">
                     <Image
-                      src={items.imgSrc}
+                      src={'/assets/mentor/right-face.png'}
                       alt="user-image"
                       width={306}
                       height={0}

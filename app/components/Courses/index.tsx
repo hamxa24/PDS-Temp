@@ -124,11 +124,11 @@ export default class MultipleItems extends Component {
 
         return (
             <div id="whp">
-                <div className='mx-auto max-w-7xl sm:py-8 px-4 lg:px-8 '>
+                <div className='mx-auto max-w-7xl my-4 sm:py-8 px-4 lg:px-8 '>
 
                     <div className="sm:flex justify-between items-center">
                         <h3 className="text-midnightblue text-4xl lg:text-55xl font-semibold mb-5 sm:mb-0">Why Hire PDS?</h3>
-                        <Link href={'/'} className="text-Blueviolet text-lg font-medium space-links">Explore courses&nbsp;&gt;&nbsp;</Link>
+                        
                     </div>
 
 
@@ -147,7 +147,7 @@ export default class MultipleItems extends Component {
 
                                     <div className="px-3">
                                         <span className="flex gap-2 items-center pt-6 pb-4 ">
-                                            <Image src="/radio.svg" alt="check-image" width={25} height={25} className='smallImage '/>
+                                            <Image src="/assets/banner/tick-mark-icon.svg" alt="check-image" width={25} height={25} className='smallImage '/>
                                             <h4 className='text-xl font-bold text-black'>{items.heading}</h4>
                                         </span>
                                         {/* <h4 className='text-2xl font-bold pt-1 text-black'>{items.heading2}</h4> */}
@@ -187,7 +187,7 @@ export default class MultipleItems extends Component {
                                         <div className="absolute inset-0 bg-white bg-opacity-95 p-6 rounded-2xl transform translate-y-full group-hover:translate-y-1/3 transition-transform duration-300 ease-in-out z-10">
         
                                                 <span className='flex gap-3 items-center py-1 mb-3'>
-                                                    <Image src="/assets/banner/check-circle.svg" alt="check-image" width={25} height={25} className='smallImage'/>
+                                                    <Image src="/assets/banner/tick-mark-icon.svg" alt="check-image" width={25} height={25} className='smallImage'/>
                                                     <h3 className='text-xl font-bold text-gray-800'>
                                                         {items.heading}
                                                     </h3>

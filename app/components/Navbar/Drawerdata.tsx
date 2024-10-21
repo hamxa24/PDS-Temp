@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import Registerdialog from "./Registerdialog";
 
 interface NavigationItem {
   name: string;
@@ -8,11 +9,10 @@ interface NavigationItem {
 }
 
 const navigation: NavigationItem[] = [
-  { name: 'Home', href: '/', current: true },
-  { name: 'Courses', href: '#courses', current: false },
-  { name: 'Mentor', href: '#mentor', current: false },
-  { name: 'Group', href: '#/', current: false },
-  { name: 'Testimonial', href: '#testimonial', current: false },
+  { name: 'Why Hire PDS', href: '#whp', current: true },
+  { name: 'Who we are', href: '#wwa', current: false },
+  { name: 'Clients we served', href: '#clients', current: false },
+  { name: 'Contact Us', href: '#contact', current: false },
 ]
 
 function classNames(...classes: string[]) {
@@ -39,12 +39,10 @@ const Data = () => {
               </Link>
             ))}
             <div className="mt-4"></div>
-            <button className="bg-white w-full text-Blueviolet border border-semiblueviolet font-medium py-2 px-4 rounded">
-              Log In
-            </button>
-            <button className="bg-semiblueviolet w-full hover:bg-Blueviolet hover:text-white text-Blueviolet font-medium my-2 py-2 px-4 rounded">
+            {/* <button className="bg-semiblueviolet w-full hover:bg-Blueviolet hover:text-white text-Blueviolet font-medium my-2 py-2 px-4 rounded">
               Sign up
-            </button>
+            </button> */}
+            <Registerdialog/>
           </div>
         </div>
       </div>

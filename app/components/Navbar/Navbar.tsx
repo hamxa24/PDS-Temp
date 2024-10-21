@@ -16,7 +16,7 @@ interface NavigationItem {
 const navigation: NavigationItem[] = [
     { name: 'Why Hire PDS?', href: '#whp', current: true },
     { name: 'Who we are?', href: '#wwa', current: false },
-    { name: 'Clients', href: '#clients', current: false },
+    { name: 'Clients served', href: '#clients', current: false },
     { name: 'Contact Us', href: '#contact', current: false },
 ];
 
@@ -59,7 +59,7 @@ const Navbar = () => {
                             <div className="flex gap-3 items-center justify-center h-20 overflow-hidden">
                                 <img
                                     className="h-auto p-3 max-h-full w-auto max-w-full object-contain"
-                                    src={'/assets/logo/PDSlogo.png'}
+                                    src={'/assets/logo/1.png'}
                                     alt="dsign-logo"
                                 />
                                 {/* <img
@@ -98,7 +98,7 @@ const Navbar = () => {
                                     alt="dsign-logo"
                                 /> */}
                                 <h2 className='text-xl'>
-                                    Provider Data Solution
+                                    Provider Data Solutions 
                                 </h2>
                             </div>
 

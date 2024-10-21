@@ -40,23 +40,23 @@ const products: ProductType[] = [
         link: ['Why Hire PDS', 'Who we are', 'Clients', 'Contact Us'],
         redirect: ['#whp', '#wwa', '#clients', '#contact'],
     },
-    {
-        id: 2,
-        section: "Our Values",
-        link: ['Expertise', 'Better Services', 'Complete Files', 'Transparent', 'Affordable Cost'],
-        redirect: ['#whp', '#whp', '#whp', '#whp', '#whp']
-    }
+    // {
+    //     id: 2,
+    //     section: "Our Values",
+    //     link: ['Expertise', 'Better Services', 'Complete Files', 'Transparent', 'Affordable Cost'],
+    //     redirect: ['#whp', '#whp', '#whp', '#whp', '#whp']
+    // }
 ]
 
 const footer = () => {
     return (
 
         <div className="mx-auto max-w-2xl sm:pt-24 px-4 sm:px-6 lg:max-w-7xl lg:px-8">
-            <div className="my-12 grid grid-cols-1 gap-y-10 sm:grid-cols-6 lg:grid-cols-12">
+            <div className="grid my-5 grid-cols-1 gap-y-10 sm:grid-cols-6 lg:grid-cols-12 border-t border-t-gray-blue">
 
                 {/* COLUMN-1 */}
 
-                <div className='sm:col-span-6 lg:col-span-6'>
+                <div className='sm:col-span-4 lg:col-span-4 '>
                     <div className="flex gap-3 items-center justify-start h-20 overflow-hidden">
                         <img
                             className="h-auto p-3 max-h-full w-auto max-w-full object-contain"
@@ -67,8 +67,8 @@ const footer = () => {
                             Provider Data Solution
                         </h2>
                     </div>
-                    <h3 className='text-xs font-medium text-gunmetalgray lh-160 mt-5 mb-4 lg:mb-16'> Your trusted partner in medical credentialing</h3>
-                    <div className='flex gap-4'>
+                    {/* <h3 className='text-xs font-medium text-gunmetalgray lh-160 mt-5 mb-4 lg:mb-16'> Your trusted partner in medical credentialing</h3> */}
+                    {/* <div className='flex gap-4'>
 
                         {socialLinks.map((items, i) => (
                         <Link href={items.link} key={i}>
@@ -78,23 +78,24 @@ const footer = () => {
                         </Link>
                         ))}
 
-                    </div>
+                    </div> */}
                 </div>
 
                 {/* CLOUMN-2/3/4 */}
 
 
                 {products.map((product) => (
-                    <div key={product.id} className="sm:col-span-3">
-                        <p className="text-black text-lg font-medium mb-9">{product.section}</p>
-                        <ul>
-                            {product.link.map((link: string, index: number) => (
-                                <li key={index} className='mb-5'>
-                                    <Link href={product.redirect[index]} className="text-darkgray text-base font-normal mb-6 space-links">{link}</Link>
-                                </li>
-                            ))}
-                        </ul>
-                    </div>
+                    <>
+                        {
+                            product.link.map((link, index)=>{
+                                return (
+                                    <div key={product.id} className="sm:col-span-2 flex items-center">
+                                        <Link href={product.redirect[index]} className="text-darkgray text-base font-normal space-links">{link}</Link>
+                                    </div>
+                                )
+                            })
+                        }
+                        </>
                 ))}
 
             </div>
