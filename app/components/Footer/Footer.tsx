@@ -51,12 +51,12 @@ const products: ProductType[] = [
 const footer = () => {
     return (
 
-        <div className="mx-auto max-w-2xl sm:pt-24 px-4 sm:px-6 lg:max-w-7xl lg:px-8">
-            <div className="grid my-5 grid-cols-1 gap-y-10 sm:grid-cols-6 lg:grid-cols-12 border-t border-t-gray-blue">
+        <div className="mx-auto max-w-2xl sm:pt-24 px-4 sm:px-6 lg:max-w-7xl lg:px-8 my-3">
+            <div className="grid grid-cols-1 gap-y-10 sm:grid-cols-6 lg:grid-cols-12 border-t border-t-gray-blue">
 
                 {/* COLUMN-1 */}
 
-                <div className='sm:col-span-4 lg:col-span-4 '>
+                <div className='sm:col-span-4 lg:col-span-4'>
                     <div className="flex gap-3 items-center justify-start h-20 overflow-hidden">
                         <img
                             className="h-auto p-3 max-h-full w-auto max-w-full object-contain"

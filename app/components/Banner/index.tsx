@@ -42,7 +42,7 @@ const Banner = () => {
                     </div>
 
                     <div className='col-span-5 flex justify-end sm:justify-center md:justify-center'>
-                        <Image src="/assets/hero/credential.png" alt="nothing" width={500} height={300} />
+                        <Image src="/assets/banner/Webpage.png" alt="nothing" width={500} height={300} />
                     </div>
                 </div>
             </div>
