@@ -45,7 +45,6 @@ const data: Data[] = [
     {
         imgSrc: "/assets/clients/viability.png"
     }
-
 ]
 
 

@@ -59,7 +59,7 @@ const Navbar = () => {
                             <div className="flex gap-3 items-center justify-center h-20 overflow-hidden">
                                 <img
                                     className="h-auto p-3 max-h-full w-auto max-w-full object-contain"
-                                    src={'/assets/logo/1.png'}
+                                    src={'/assets/logo/pds-logo.png'}
                                     alt="dsign-logo"
                                 />
                                 {/* <img
