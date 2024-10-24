@@ -50,60 +50,60 @@ const Navbar = () => {
     return (
         <Disclosure as="nav" className="navbar">
             <>
-                <div className="px-6 py-4 lg:px-8">
+                <div className="px-6 py-4 lg:px-8 bg-[#1879ad]">
                     <div className="relative flex h-12 md:h-20 items-center justify-between">
                         <div className="flex flex-1 items-center sm:items-stretch sm:justify-between">
 
                             {/* LOGO */}
 
                             <div className="flex gap-3 items-center justify-center h-20 overflow-hidden">
-                                <img
+                                {/* <img
                                     className="h-auto p-3 max-h-full w-auto max-w-full object-contain"
-                                    src={'/assets/logo/pds-logo.png'}
+                                    src={'/assets/logo/Final logo 1.png'}
+                                    alt="dsign-logo"
+                                /> */}
+                                    <img
+                                        className="h-auto p-3 max-h-full w-auto max-w-full object-contain drop-shadow-lg"
+                                        src={'/assets/logo/Final logo 1.png'}
+                                        alt="dsign-logo"
+                                    />
+                                <img
+                                    className="h-auto p-3 max-h-full w-auto max-w-full object-contain drop-shadow-lg"
+                                    src={'/assets/logo/Final logo 2.png'}
+                                    alt="dsign-logo"
+                                />
+                                <img
+                                    className="h-auto p-3 max-h-full w-auto max-w-full object-contain drop-shadow-lg"
+                                    src={'/assets/logo/Final logo 3.png'}
+                                    alt="dsign-logo"
+                                />
+                                <img
+                                    className="h-auto p-3 max-h-full w-auto max-w-full object-contain drop-shadow-lg"
+                                    src={'/assets/logo/Final logo 4.png'}
+                                    alt="dsign-logo"
+                                />
+                                <img
+                                    className="h-auto p-3 max-h-full w-auto max-w-full object-contain drop-shadow-lg"
+                                    src={'/assets/logo/Final logo 5.png'}
+                                    alt="dsign-logo"
+                                />
+                                <img
+                                    className="h-auto p-3 max-h-full w-auto max-w-full object-contain drop-shadow-lg"
+                                    src={'/assets/logo/Final logo 6.png'}
                                     alt="dsign-logo"
                                 />
                                 {/* <img
                                     className="h-auto p-3 max-h-full w-auto max-w-full object-contain"
-                                    src={'/assets/logo/1.png'}
-                                    alt="dsign-logo"
-                                />
-                                <img
-                                    className="h-auto p-3 max-h-full w-auto max-w-full object-contain"
-                                    src={'/assets/logo/2.png'}
-                                    alt="dsign-logo"
-                                />
-                                <img
-                                    className="h-auto p-3 max-h-full w-auto max-w-full object-contain"
-                                    src={'/assets/logo/3.png'}
-                                    alt="dsign-logo"
-                                />
-                                <img
-                                    className="h-auto p-3 max-h-full w-auto max-w-full object-contain"
-                                    src={'/assets/logo/4.png'}
-                                    alt="dsign-logo"
-                                />
-                                <img
-                                    className="h-auto p-3 max-h-full w-auto max-w-full object-contain"
-                                    src={'/assets/logo/5.png'}
-                                    alt="dsign-logo"
-                                />
-                                <img
-                                    className="h-auto p-3 max-h-full w-auto max-w-full object-contain"
-                                    src={'/assets/logo/6.png'}
-                                    alt="dsign-logo"
-                                />
-                                <img
-                                    className="h-auto p-3 max-h-full w-auto max-w-full object-contain"
                                     src={'/assets/logo/7.png'}
                                     alt="dsign-logo"
                                 /> */}
-                                <h2 className='text-xl'>
+                                {/* <h2 className='text-xl text-white'>
                                     Provider Data Solutions 
-                                </h2>
+                                </h2> */}
                             </div>
 
                             {/* LINKS */}
-
+{/* 
                             <div className="hidden lg:flex items-center">
                                 <div className="flex space-x-4">
                                     {navigation.map((item) => (
@@ -114,8 +114,8 @@ const Navbar = () => {
                                         >
                                             <span
                                                 className={classNames(
-                                                    item.href === currentLink ? 'underline-links' : 'text-slategray',
-                                                    'px-3 py-4 text-lg font-normal opacity-75 hover:opacity-100'
+                                                    item.href === currentLink ? 'underline-links text-[#FFFF00] opacity-100' : 'text-white font-normal opacity-75',
+                                                    'px-3 py-4 text-lg  hover:opacity-100'
                                                 )}
                                                 aria-current={item.href ? 'page' : undefined}
                                             >
@@ -124,7 +124,7 @@ const Navbar = () => {
                                         </CustomLink>
                                     ))}
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
 
                         {/* SIGNIN DIALOG */}
