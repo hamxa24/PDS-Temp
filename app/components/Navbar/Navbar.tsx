@@ -61,23 +61,24 @@ const Navbar = () => {
                                     className="h-auto p-3 max-h-full w-auto max-w-full object-contain"
                                     src={'/assets/logo/Final logo 1.png'}
                                     alt="dsign-logo"
-                                /> */}
+                                /> 
                                     <img
                                         className="h-auto p-3 max-h-[calc(100%+15px)] w-auto max-w-full object-contain drop-shadow-lg"
                                         src={'/assets/logo/Final logo 1.png'}
                                         alt="dsign-logo"
                                     />
+                                    */}
                                 {/* <img
                                     className="h-auto p-3 max-h-[calc(100%+15px)] w-auto max-w-full object-contain drop-shadow-lg"
                                     src={'/assets/logo/Final logo 2.png'}
                                     alt="dsign-logo"
-                                />
+                                /> */}
                                 <img
                                     className="h-auto p-3 max-h-[calc(100%+15px)] w-auto max-w-full object-contain drop-shadow-lg"
                                     src={'/assets/logo/Final logo 3.png'}
                                     alt="dsign-logo"
                                 />
-                                <img
+                                {/* <img
                                     className="h-auto p-3 max-h-[calc(100%+15px)] w-auto max-w-full object-contain drop-shadow-lg"
                                     src={'/assets/logo/Final logo 4.png'}
                                     alt="dsign-logo"
